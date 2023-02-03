@@ -1,0 +1,121 @@
+
+/* Hoja de estilos única para todas las páginas */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/background2.jpg);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+    background-size: 100%;
+    font-family: 'Rubik',sans-serif;
+}
+#contenedor {
+    margin: auto;
+    width: 800px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 50px #c78409;
+}
+#caja {
+  background: rgba(0,0,0);
+  position:relative;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  font-weight: bold;
+
+}
+#menu {
+    float: left;
+    text-align: center;
+}
+#menu ul {
+    list-style: none;
+    overflow: hidden; 
+}
+#menu ul li {
+    float: left;
+    font-size: 15px;
+}
+#menu ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#menu ul li:hover {
+    background: #eca023;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    border: 4px rgb(211, 145, 24) dotted;
+    border-radius: 20px;   
+    padding: 10px 0px 10px 0px;
+    font-family: 'Atomic Age';
+}
+#foto {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;   
+}
+#foto1 {
+    text-align: center;
+    padding-top: 100px;
+}
+h2 {
+    font-family: 'Audiowide';
+    margin: 20px 0px 20px 0px;
+    border: 4px rgb(211, 145, 24) solid;
+    border-radius: 100px;   
+    padding: 10px;
+    text-align: center;
+}  
+h3 {
+    font-family: 'Open Sans', sans-serif; 
+    border-bottom: 1px rgb(211, 145, 24) solid;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+}
+p {
+    text-align: justify;
+}
+#artistas ul li {
+    padding-bottom: 30px;
+    list-style-image: url(../img/guitaricon.png);
+    margin: 0px 20px;
+}
+strong {
+    color: orange;
+}
+#footer {
+    text-align: center;
+    margin: 50px;
+}
+#footer p {
+    text-align: center;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(21, 255, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#homepage {
+    text-align: right;
+}
+a {
+    color: orangered;
+}
